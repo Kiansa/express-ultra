@@ -1,0 +1,2 @@
+node_modules
+# .env // add this if your project is public to avoid exposing your secrets
