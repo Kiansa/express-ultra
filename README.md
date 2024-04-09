@@ -3,7 +3,8 @@
 Minimal Node/Express Backend App Starter Template
 
 - Nodmailer is preconfigured to send emails using smtp
-- Winston logger is preconfigured to log to file
+- Signale logger is preconfigured to log to file on console for development
+- Winston logger is preconfigured to log to file on production
 
 ## Features
 
