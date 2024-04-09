@@ -1,4 +1,4 @@
-const {Signale} = require('signale')
+const { Signale } = require('signale')
 
 const options = {
   types: {
@@ -11,7 +11,7 @@ const options = {
       badge: '❌',
       color: 'red',
       label: 'error',
-      logLevel: 'error'
+      logLevel: 'error',
     },
     success: {
       badge: '✅',
@@ -31,11 +31,10 @@ signale.config({
   displayFilename: true,
   displayTimestamp: true,
   displayDate: false,
-  "underlineLabel": false,
-  "uppercaseLabel": true
+  underlineLabel: false,
+  uppercaseLabel: true,
 })
 
 module.exports = {
   signale,
-  // Export other common modules here
 }
