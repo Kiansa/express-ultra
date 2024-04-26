@@ -26,8 +26,8 @@ const options = {
   },
 }
 
-const signale = new Signale(options)
-signale.config({
+const logger = new Signale(options)
+logger.config({
   displayFilename: true,
   displayTimestamp: true,
   displayDate: false,
@@ -36,5 +36,5 @@ signale.config({
 })
 
 module.exports = {
-  signale,
+  logger,
 }
